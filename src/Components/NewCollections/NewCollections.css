@@ -1,0 +1,76 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("src/assets/images/ads-bg.png");
+    height: 640px;
+    width: 100%;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content h6 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    color: #23a6f0;
+  }
+  
+  .content h2 {
+    width: 571px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+    color: #252B42;
+  }
+  
+  .content p {
+    width: 447px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #737373;
+  }
+  
+  .content h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32x;
+    text-align: center;
+    color: #23856d;
+  }
+  
+  .content button {
+    width: 292px;
+    height: 52px;
+    font-weight: 700;
+    color: white;
+    background-color: #23a6f0;
+    border: 1px solid #23a6f0;
+    border-radius: 7px;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .wrapper {
+      height: 712px;
+      width: 98%;
+      background-position: center;
+    }
+  
+    .content h2 {
+      width: 350px;
+    }
+  
+    .content p {
+      width: 287px;
+    }
+  }
+  

@@ -1,0 +1,76 @@
+.footer{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.footer-logo p{
+    color: #383838;
+    font-size: 46px;
+    font-weight: 700;
+}
+/* .imag{
+    background-image: url(/vite-project/src/Components/Assets/fa-brands-3.png );
+    list-style-type: none;
+    width: 60%;
+    height: 300%;
+    border: 1px solid black;
+    background: red;
+    background-size: cover;
+    background-position: center;
+    
+} */
+.footer-links{
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    color: #252525;
+    font-size: 20px;
+}
+.footer-links li{
+    cursor: pointer;
+
+}
+.social{
+    display: flex;
+    gap: 20px;
+}
+.icons{
+    padding: 10px;
+    padding-bottom: 6px;
+    background: #fbfbfb;
+    border:  1px solid #ebebeb;
+    background-color:red ;
+    cursor: pointer;
+}
+.copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    margin-bottom: 30px;
+    color: #1a1a1a;
+    font-size: 20px;
+}
+.copyright hr{
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    height: 3px;
+    background: #c7c7c7;
+}
+
+@media screen and (max-width: 700px){
+    .footer{
+        width: 100%;
+        /* border: 1px solid black; */
+    }
+}

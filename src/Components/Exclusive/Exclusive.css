@@ -1,0 +1,150 @@
+.products{
+    width: 85%;
+    /* background: rebeccapurple; */
+    margin-left: 9rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border:  1px solid #5a5a5a; */
+    /* height: 80vh; */
+    flex-direction: row;
+    list-style-type: none;
+    margin-bottom: 20rem;
+    
+}
+.prod-item{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    
+}
+.prod-item p{
+    margin-bottom: -0.3rem;
+}
+.prod-item span{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    
+    /* /* flex-direction: column; * */
+
+}
+.menu{
+    display: flex;
+    width: 25%;
+    height: 50%;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2rem;
+    justify-content: center;
+    border: 1px solid #6f6d6d;
+    margin-bottom: 2rem;
+    box-shadow:  5px 15px #6f6d6d;
+    
+}
+.menu:active{
+    cursor: pointer;
+}
+.menu img{
+    width: 100%;
+
+}
+
+.old-price{
+    text-decoration: line-through;
+    font-size: 20px;
+    font-weight: 500;
+    color: #363636;
+    gap: 5px;
+}
+.new-price{
+    color: green;
+    font-size: 20px;
+    font-weight: 500;
+}
+.Cart{
+    display: flex;
+    width: 100%;
+}
+
+.addCart{
+    background: red;
+    width: 45%;
+    margin-bottom: 2rem;
+    border-radius: 75px;
+    align-items: center;
+    margin-right:0.5rem ;
+    display: flex;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    margin-left: 0.5rem;
+    
+}
+.addCart:hover{
+    background-color: #363636;
+}
+.removeCart{
+    background: red;
+    width: 70%;
+    margin-bottom: 2rem;
+    margin-right: 0.5rem;
+    border-radius: 75px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+}
+.removeCart:hover{
+    background-color: #363636;
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .products{
+        display: grid;
+        width: 80%;
+        justify-content: center;
+        
+    }
+    .prod-item{
+        width: 50%;
+    }
+    .menu{
+        width: 60%;
+        border: none;
+    }
+    .menu:hover{
+      font-family: 'Courier New', Courier, monospace;
+     color: #4a4a4a;
+    }
+    .Cart{
+        width: 150%;
+        height: 10vh;
+        display: flex;
+        padding-top: 1rem;
+        justify-content: center;
+    }
+    .addCart{
+        width: 150%;
+        background: #363636;
+        height: 30px;
+    }
+    .addCart:hover{
+        background-color: red;
+    }
+    .removeCart{
+        width: 250%;
+        background: #363636;
+        /* padding: 1rem; */
+    }
+    .removeCart:hover{
+        background: red;
+    }
+    
+}

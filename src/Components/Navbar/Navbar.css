@@ -1,0 +1,180 @@
+.navbar{
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: column;
+    padding: 16px;
+    box-shadow: 0 1px 3px -2px black;
+}
+.Navbar{
+    display: flex;
+}
+.nav img{
+    width: 100%;
+}
+.second-div{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    font-size:25px;
+    color: rgb(3, 3, 68);
+}
+.nav-menu{
+    display: flex;
+    /* justify-self: center; */
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 50px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.nav-menu li{
+    cursor: pointer;
+    
+}
+.nav-menu hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background: #ff4141;
+}
+.nav-login-cart{
+      display: flex;
+      align-items: center;
+      gap: 45px;
+      width: 30%;
+      justify-content: center;
+}
+.nav-login-cart img{
+    width: 40px;
+    height: 10;
+}
+.nav-login-cart button{
+    width: 157px;
+    height: 58px;
+    outline: none;
+    border: 1px solid #7a7a7a;
+    border-radius: 75px;
+    color:rgb(22, 120, 241);
+    font-size: 18px;
+    /* font-weight:; */
+    background: white;
+    cursor: pointer;
+
+}
+.nav-cart-count{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -55px;
+    border-radius: 11px;
+    font-size: 14px;
+    background: red;
+    color: white;
+}
+.icon{
+    display: flex;
+    width: 5%;
+    justify-content: flex-start;
+    align-items: center;
+}
+.icon img{
+    width: 40%;
+    margin-left: -5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.toggle-button{
+    position: absolute;
+    top: .75rem;
+    left: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar{
+    height: 5px;
+    width: 120%;
+    background-color :red;
+    border-radius: 10px;
+}
+
+.input_check{
+    display: none;
+
+}
+
+
+@media screen and (max-width: 700px){
+    .navbar{
+        width: 100%;
+        overflow: hidden;
+    }
+    .toggle-button{
+        display: flex;
+        color: rgb(247, 35, 35);
+        margin-top: 4.5rem;
+        margin-left: 3rem;
+
+        
+    }
+    .Navbar{
+        display: none;
+        padding: 2rem;
+        flex-flow: column nowrap;
+        height: 100vh;
+        /* overflow: hidden; */
+        margin-top: 5rem;
+        justify-content: center;
+        background-color: #7a7a7a;
+    }
+    .nav-menu{
+        flex-direction: column;
+        /* align-items: flex-start; */
+        height: 110px;
+        justify-content: center;
+        width: 100%;
+        /* background-color: whitesmoke; */
+        color: black;
+        z-index: 1000;
+        cursor: pointer;
+        margin-top: 6rem;
+
+    }
+    .nav-menu > li{
+        text-align: center;
+        /* background-color: rgb(223, 8, 8); */
+        z-index: 1000;
+        /* width: 400px; */
+        /* margin: 2rem 2rem; */
+    }
+    .nav-login-cart{
+        /* display: none; */
+        flex-flow: column nowrap;
+        margin-top: 10rem;
+        margin-left: 9rem;
+    }
+    
+    .input_check{
+        display: none;
+    }
+
+    .input_check:checked ~ div{
+        /* margin-top: 50%; */
+        padding-top: 20%;
+        display: block;
+        transition: 600ms ease-in-out;
+    }
+}

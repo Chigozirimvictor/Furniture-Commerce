@@ -1,0 +1,137 @@
+
+.hero-new-products-main-container{
+    display: flex;
+    margin-left: 7rem;
+    /* justify-content: center; */
+    margin-bottom: 10rem;
+}
+.Advice{
+    position: relative;
+    top: -7rem;
+    left:40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    height: 20%;
+}
+.practice{
+    color: rgb(38, 176, 239);padding-bottom: -9rem;
+    margin-bottom: -1rem;
+}
+.Advice h1{
+    color: #434244;
+} 
+.hero-new-products{
+    box-shadow: 5px 10px #858484;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 2rem;
+    border: 1px solid #434244;
+    flex-direction: column;
+}
+.it-image {
+    width: 240px;
+    margin: .6rem;
+    padding: -1rem;
+    cursor: pointer;
+}
+.hero-new-products-text{
+    display: flex;
+
+    gap: 2rem;
+    align-items: center;
+    padding: 0 rem;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+    margin-top: -1rem;
+    cursor: pointer;
+}
+.texts{
+    width: 100%;
+    font-size: .8rem;
+    margin-left: 3rem;
+    /* margin-left: 2rem; */
+}
+.texts h3{
+    width: 100%;
+    font-size: 20px;
+}
+.texts p{
+    color: #858484;
+    width: 70%;
+}
+.saved-user {
+    display: flex;
+   gap: 2rem;
+    align-items: center;
+    margin-left: 2rem;
+}
+.saved-star-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .1rem;
+}
+.saved-star-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .1rem;
+}
+
+.saved-star-left img {
+    width: 12px;
+    height: 12px;
+}
+
+.saved-user-count img {
+    width: 12px;
+    height: 12px;
+}
+
+.saved-user-count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .2rem;
+    font-size: .6rem;
+    cursor: pointer;
+}
+.saved-user-arrow{
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+    font-size: .6rem;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+    .hero-new-products-main-container{
+        width: 80%;
+        margin-left: 0rem;
+        display: flex;
+        overflow: scroll;
+
+    }
+    .Advice{
+        /* display: block; */
+        position: relative;
+        top: -7rem;
+        left:12rem;
+      
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .hero-new-products{
+        width: 80%;
+        
+    }
+
+}

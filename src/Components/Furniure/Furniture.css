@@ -1,0 +1,161 @@
+.Main-div{
+    display: block;
+}
+
+.First-div{
+    display: flex;
+    margin: 4rem;
+    /* margin-top: 30rem; */
+    height: 100vh;
+}
+.image{
+    width: 50%;
+    /* justify-content: center; */
+    background-image: url(/src/Components/Assets/media.png);
+    display: flex;
+    /* height: 100%; */
+    /* background-position: center; */
+    background-size: cover;
+    margin-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    list-style-type: none;
+}
+.image img{
+    width: 100%;
+}
+
+.first{
+    background-image: url(/src/Components/Assets/card_cover.jpg);
+    width: 40rem;
+    background-position: center;
+    background-size: cover;
+    height: 50%;
+    list-style-type: none;
+    padding-left: 2rem;
+    
+    padding-top: 2rem;
+}
+.first p{
+    gap: -5px;
+}
+.items{
+    color: rgb(29, 163, 29);
+    font-weight: 500;
+}
+.niture{
+    font-size: 25px;
+    margin-top:-1rem ;
+    color: rgb(2, 2, 44);
+}
+.more{
+    color: rgb(2, 2, 44);
+    margin-top: -1rem;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    list-style-type: none;
+    width: 100%;
+    font-size: 10px;
+    height: 50vh;
+    margin-left: -2.5rem;
+    /* align-items: center; */
+    gap: 20px;
+    justify-content: space-between;
+
+}
+.second h1{
+    font-size: 30px;
+}
+.cup{
+    background-image: url(/src/Components/Assets/card_cup.png);
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    height: 85%;
+    list-style-type: none;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+.vase{
+    background-image: url(/src/Components/Assets/card_vase.jpg);
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    height: 85%;
+    list-style-type: none;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+
+.Second-div{
+    display: block;
+    width: 100%;
+    height: 25vh;
+}
+
+.first_inner{
+    list-style-type: none;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+      color: #737373;
+      font-size: 20px;
+
+}
+
+.seller{
+    color: rgb(2, 2, 44);  
+    margin-top: -1rem;
+    margin-bottom: -1rem;  
+}
+.problem{
+    font-size: 13px;
+}
+
+@media screen and (max-width: 700px) {
+    .Main-div{
+        width: 100%;
+        display: grid;
+        overflow: hidden;
+    }
+    .First-div{
+        width: 100%;
+        display: grid;
+        /* justify-content: center; */
+    }
+    .image{
+        height: 70%;
+        width: 80%;
+    }
+    h1{
+        font-size: 30px;
+       
+    }
+    .Responsive{
+        display: grid;
+        width: 100%;
+        
+    }
+    .first{
+        width: 80%;
+        height: 70%;
+    }
+    .second{
+        width: 85%;
+        height: 70%;
+        display: flex;
+       
+    }
+    
+    .Second-div{
+      height: 70vh;
+        width: 100%;
+        display: grid;
+        justify-content: center;
+    }
+}
