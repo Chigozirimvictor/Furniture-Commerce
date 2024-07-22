@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import Exclusive from "../Components/Exclusive/Exclusive";
+// import Exclusive from "../Components/Exclusive/Exclusive";
 import { useParams } from "react-router-dom";
 // import Breadcrumps from "../Components/Breadcrumps/Breadcrumps";
 import ProductDisplay from "../Components/ProductDisplay/ProductDisplay";

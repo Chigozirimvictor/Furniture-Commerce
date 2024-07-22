@@ -4,7 +4,7 @@ import Exclusive from "../Components/Exclusive/Exclusive";
 import Breadcrumps from "../Components/Breadcrumps/Breadcrumps";
 // import Navbar from "../Components/Navbar/Navbar";
 
-const Home = ({cartProducts}) => {
+const Home = ({}) => {
     
     return(
         <div>
