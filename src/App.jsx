@@ -12,19 +12,8 @@ import NewCollections from './Components/NewCollections/NewCollections';
 
 
 function App() {
-  const [cartProducts, setCartProducts] = useState(localStorage.getItem('cart') ? JSON.parse(localStorage.getItem('cart')) : [])
+  const [cartProducts] = useState(localStorage.getItem('cart') ? JSON.parse(localStorage.getItem('cart')) : [])
 
-	const addToCart = (product) => {
-		const localCart = localStorage.getItem('cart') ? JSON.parse(localStorage.getItem('cart')) : [];
-
-		let isProduct = localCart.find((item) => item.id === product.id);
-		console.log(isProduct, 'isProduct');
-		if (!isProduct) {
-			localStorage.setItem('cart', JSON.stringify([...localCart, product]));
-			setCartProducts([...cartProducts, product]);
-		}
-
-	};
 
 
   return (

@@ -10,7 +10,7 @@ const Navbar = () => {
 const localCart = JSON.parse(localStorage.getItem("cart"))
 const cartCount = localCart ?  localCart.length : 0
 
-// console.log(localCart.length)
+console.log(localCart.length)
 const[menu,setMenu] = useState("Home");
     return (
 

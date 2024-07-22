@@ -1,9 +1,7 @@
-// import React, { useState } from "react";
-import React, {useState} from "react";
+import React from "react";
 
 import { useGetProductsQuery } from "../../api/productApi";
 import "./Exclusive.css";
-import { Link } from "react-router-dom";
 // import red2 from '../../src/Images'
 
 
@@ -49,9 +47,6 @@ const removeFromCart = (productId) => {
             Remove Cart
           </div>
           </div>
-          {/* <button onClick={loadMore} className="btn">
-        LOAD MORE PRODUCTS
-      </button> */}
         </div>
        
       ))}
